@@ -22,3 +22,4 @@ class UserSchema(BaseModel):
 
 class JWTResponse(BaseModel):
     access_token: str
+# test

@@ -48,3 +48,6 @@ def user_log_in_handler(
 
     access_token: str = user_service.create_jwt(username=user.username)
     return JWTResponse(acces_token=access_token)
+
+
+# test
